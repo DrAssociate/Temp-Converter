@@ -105,7 +105,7 @@ input:placeholder-shown {
 .temp-box {
   width: 75px;
   background-color: rgb(235, 235, 235);
-  font-size: 0.8em;
+  font-size: 0.5em;
   border: none;
   appearance: none;
   text-align: right;
@@ -140,8 +140,6 @@ input:placeholder-shown {
 
   #user-temp {
     grid-row: 2/3;
-    font-size: 1.4em;
-    font-size: 1em;
     width: 436px;
   }
 

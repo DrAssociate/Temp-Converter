@@ -82,17 +82,17 @@ subBtn.addEventListener('click', function () {
     const fah2Cel = convertFahToCel(userValue);
     answer.textContent = fah2Cel;
     if (fah2Cel < 21.1) {
-      body.style.backgroundImage = 'url(practice-img/fall-img.jpg)';
+      body.style.backgroundImage = 'url(images/fall-img.jpg)';
       body.style.backgroundSize = 'cover';
       body.style.backgroundRepeat = 'no-repeat';
     }
     if (fah2Cel < 4.5) {
-      body.style.backgroundImage = 'url(practice-img/winter-img.jpg)';
+      body.style.backgroundImage = 'url(images/winter-img.jpg)';
       body.style.backgroundSize = 'cover';
       body.style.backgroundRepeat = 'no-repeat';
     }
     if (fah2Cel > 21.1) {
-      body.style.backgroundImage = 'url(practice-img/spring-img.jpg)';
+      body.style.backgroundImage = 'url(images/spring-img.jpg)';
       body.style.backgroundSize = 'cover';
       body.style.backgroundRepeat = 'no-repeat';
     }
@@ -101,17 +101,17 @@ subBtn.addEventListener('click', function () {
     const fah2Kel = convertFahToKel(userValue);
     answer.textContent = fah2Kel;
     if (fah2Kel < 294.261) {
-      body.style.backgroundImage = 'url(practice-img/fall-img.jpg)';
+      body.style.backgroundImage = 'url(images/fall-img.jpg)';
       body.style.backgroundSize = 'cover';
       body.style.backgroundRepeat = 'no-repeat';
     }
     if (fah2Kel < 277.6) {
-      body.style.backgroundImage = 'url(practice-img/winter-img.jpg)';
+      body.style.backgroundImage = 'url(images/winter-img.jpg)';
       body.style.backgroundSize = 'cover';
       body.style.backgroundRepeat = 'no-repeat';
     }
     if (fah2Kel > 294.261) {
-      body.style.backgroundImage = 'url(practice-img/spring-img.jpg)';
+      body.style.backgroundImage = 'url(images/spring-img.jpg)';
       body.style.backgroundSize = 'cover';
       body.style.backgroundRepeat = 'no-repeat';
     }
@@ -120,17 +120,17 @@ subBtn.addEventListener('click', function () {
     const cel2Fah = convertCelToFah(userValue);
     answer.textContent = cel2Fah;
     if (cel2Fah < 70) {
-      body.style.backgroundImage = 'url(practice-img/fall-img.jpg)';
+      body.style.backgroundImage = 'url(images/fall-img.jpg)';
       body.style.backgroundSize = 'cover';
       body.style.backgroundRepeat = 'no-repeat';
     }
     if (cel2Fah < 40) {
-      body.style.backgroundImage = 'url(practice-img/winter-img.jpg)';
+      body.style.backgroundImage = 'url(images/winter-img.jpg)';
       body.style.backgroundSize = 'cover';
       body.style.backgroundRepeat = 'no-repeat';
     }
     if (cel2Fah > 70) {
-      body.style.backgroundImage = 'url(practice-img/spring-img.jpg)';
+      body.style.backgroundImage = 'url(images/spring-img.jpg)';
       body.style.backgroundSize = 'cover';
       body.style.backgroundRepeat = 'no-repeat';
     }
@@ -140,17 +140,17 @@ subBtn.addEventListener('click', function () {
     answer.textContent = cel2Kel;
     console.log(cel2Kel);
     if (cel2Kel < 294.261) {
-      body.style.backgroundImage = 'url(practice-img/fall-img.jpg)';
+      body.style.backgroundImage = 'url(images/fall-img.jpg)';
       body.style.backgroundSize = 'cover';
       body.style.backgroundRepeat = 'no-repeat';
     }
     if (cel2Kel < 277.6) {
-      body.style.backgroundImage = 'url(practice-img/winter-img.jpg)';
+      body.style.backgroundImage = 'url(images/winter-img.jpg)';
       body.style.backgroundSize = 'cover';
       body.style.backgroundRepeat = 'no-repeat';
     }
     if (cel2Kel > 294.261) {
-      body.style.backgroundImage = 'url(practice-img/spring-img.jpg)';
+      body.style.backgroundImage = 'url(images/spring-img.jpg)';
       body.style.backgroundSize = 'cover';
       body.style.backgroundRepeat = 'no-repeat';
     }
@@ -159,17 +159,17 @@ subBtn.addEventListener('click', function () {
     const kel2Fah = convertKelToFah(userValue);
     answer.textContent = kel2Fah;
     if (kel2Fah < 70) {
-      body.style.backgroundImage = 'url(practice-img/fall-img.jpg)';
+      body.style.backgroundImage = 'url(images/fall-img.jpg)';
       body.style.backgroundSize = 'cover';
       body.style.backgroundRepeat = 'no-repeat';
     }
     if (kel2Fah < 40) {
-      body.style.backgroundImage = 'url(practice-img/winter-img.jpg)';
+      body.style.backgroundImage = 'url(images/winter-img.jpg)';
       body.style.backgroundSize = 'cover';
       body.style.backgroundRepeat = 'no-repeat';
     }
     if (kel2Fah > 70) {
-      body.style.backgroundImage = 'url(practice-img/spring-img.jpg)';
+      body.style.backgroundImage = 'url(images/spring-img.jpg)';
       body.style.backgroundSize = 'cover';
       body.style.backgroundRepeat = 'no-repeat';
     }
@@ -178,17 +178,17 @@ subBtn.addEventListener('click', function () {
     const kel2Cel = convertKelToCel(userValue);
     answer.textContent = kel2Cel;
     if (kel2Cel < 21.1) {
-      body.style.backgroundImage = 'url(practice-img/fall-img.jpg)';
+      body.style.backgroundImage = 'url(images/fall-img.jpg)';
       body.style.backgroundSize = 'cover';
       body.style.backgroundRepeat = 'no-repeat';
     }
     if (kel2Cel < 4.5) {
-      body.style.backgroundImage = 'url(practice-img/winter-img.jpg)';
+      body.style.backgroundImage = 'url(images/winter-img.jpg)';
       body.style.backgroundSize = 'cover';
       body.style.backgroundRepeat = 'no-repeat';
     }
     if (kel2Cel > 21.1) {
-      body.style.backgroundImage = 'url(practice-img/spring-img.jpg)';
+      body.style.backgroundImage = 'url(images/spring-img.jpg)';
       body.style.backgroundSize = 'cover';
       body.style.backgroundRepeat = 'no-repeat';
     }
