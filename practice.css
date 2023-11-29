@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  background-color: rgb(255, 251, 235);
+  transition: linear 0.7s;
+}
+
+main {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 2;
+  grid-template-rows: 3;
+  padding: 2em;
+  margin: 20vh auto;
+  max-width: 700px;
+  text-align: center;
+  background-color: white;
+  opacity: 0.9;
+  box-shadow: grey 0 0 15px;
+  border-radius: 5px;
+}
+
+.grid-heading {
+  grid-row: 1/2;
+  grid-column: 1/3;
+  padding-bottom: 1em;
+}
+
+.column1-head {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  font-size: 1.4em;
+}
+
+.temp-field {
+  display: inline-block;
+}
+
+.column1-head input {
+  height: 2em;
+}
+
+input:placeholder-shown {
+  font-size: 0.5em;
+}
+
+#cel-input {
+  transform: translateX(-10px);
+}
+
+#kel-input {
+  transform: translateX(-14px);
+}
+
+.column2-head {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  font-size: 1.4em;
+}
+
+#cel-conv {
+  transform: translateX(-10px);
+}
+
+#kel-conv {
+  transform: translateX(-14px);
+}
+
+#submit {
+  grid-column: 1/3;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+#submit button {
+  font-size: 1em;
+  color: white;
+  background: linear-gradient(
+    to bottom right,
+    rgb(255, 251, 235),
+    rgb(73, 100, 253)
+  );
+  box-shadow: grey 0 0 15px;
+  padding: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit button:active {
+  translate: 0 2px;
+  box-shadow: grey 0 0 5px;
+}
+
+#converted-answer {
+  margin-top: 2em;
+  font-size: 1.2em;
+}
+
+.temp-box {
+  width: 75px;
+  background-color: rgb(235, 235, 235);
+  font-size: 0.8em;
+  border: none;
+  appearance: none;
+  text-align: right;
+  border-bottom: 2px solid rgb(73, 100, 253);
+  border-radius: 3px;
+}
+
+.temp-box:focus {
+  outline: none;
+}
+
+.temp-box::-webkit-outer-spin-button,
+.temp-box::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/***********MEDIA QUERIES***********/
+
+@media screen and (max-width: 565px) {
+  main {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 4;
+    opacity: 0.9;
+  }
+
+  .grid-heading {
+    grid-row: 1/2;
+    padding-bottom: 0.2em;
+  }
+
+  #user-temp {
+    grid-row: 2/3;
+    font-size: 1.4em;
+    font-size: 1em;
+    width: 436px;
+  }
+
+  .temp-field {
+    display: block;
+  }
+
+  #converted-temp {
+    grid-row: 3/4;
+    font-size: 1em;
+    margin-top: 2em;
+  }
+
+  #submit {
+    grid-row: 4/5;
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+  #converted-answer {
+    font-size: 1.5em;
+  }
+}

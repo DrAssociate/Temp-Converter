@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="practice.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body src="">
+    <main>
+      <h1 class="grid-heading">Temperature converter</h1>
+      <div id="user-temp">
+        <h3 class="column1-head" for="user-input">
+          Temperature to be converted:
+          <div class="temp-field">
+            <input
+              class="temp-box"
+              type="number"
+              id="user-input"
+              placeholder="TEMP"
+              max="9999"
+              pattern="/^-?\d+\.?\d*$/"
+              onKeyPress="if(this.value.length==7) return false;"
+            />
+            <span class="degree-icon">&deg</span><br />
+          </div>
+        </h3>
+        <br />
+        <div class="radio-boxes">
+          <input type="radio" name="temp-type" id="fah-input" />
+          <label for="temp-type" id="user-fah">Fahrenheit</label><br />
+          <input type="radio" name="temp-type" id="cel-input" />
+          <label for="temp-type" id="user-cel">Celsius</label><br />
+          <input type="radio" name="temp-type" id="kel-input" />
+          <label for="temp-type" id="user-kel">Kelvin</label><br />
+        </div>
+      </div>
+
+      <div id="converted-temp">
+        <h3 class="column2-head" for="unit-convert">Conversion</h3>
+        <br />
+        <div class="radio-boxes">
+          <input type="radio" name="convert-type" id="fah-conv" />
+          <label for="convert-type" id="conv-fah">Fahrenheit</label><br />
+          <input type="radio" name="convert-type" id="cel-conv" />
+          <label for="convert-type" id="conv-cel">Celsius</label><br />
+          <input type="radio" name="convert-type" id="kel-conv" />
+          <label for="convert-type" id="conv-kel">Kelvin</label><br />
+        </div>
+      </div>
+
+      <div id="submit">
+        <button type="button" id="submit-btn">Convert Temperature!</button>
+        <p id="converted-answer"></p>
+      </div>
+    </main>
+
+    <script src="pracitce.js"></script>
+  </body>
+</html>
