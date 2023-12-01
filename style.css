@@ -37,16 +37,37 @@ main {
   font-size: 1.4em;
 }
 
-.temp-field {
-  display: inline-block;
-}
-
 .column1-head input {
   height: 2em;
 }
 
+.temp-field {
+  display: inline-block;
+}
+
 input:placeholder-shown {
   font-size: 0.5em;
+}
+
+.temp-box {
+  width: 75px;
+  background-color: rgb(235, 235, 235);
+  /* font-size: 1em; */
+  border: none;
+  appearance: none;
+  text-align: right;
+  border-bottom: 2px solid rgb(73, 100, 253);
+  border-radius: 3px;
+}
+
+.temp-box:focus {
+  outline: none;
+}
+
+.temp-box::-webkit-outer-spin-button,
+.temp-box::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 #cel-input {
@@ -100,27 +121,6 @@ input:placeholder-shown {
 #converted-answer {
   margin-top: 2em;
   font-size: 1.2em;
-}
-
-.temp-box {
-  width: 75px;
-  background-color: rgb(235, 235, 235);
-  font-size: 0.5em;
-  border: none;
-  appearance: none;
-  text-align: right;
-  border-bottom: 2px solid rgb(73, 100, 253);
-  border-radius: 3px;
-}
-
-.temp-box:focus {
-  outline: none;
-}
-
-.temp-box::-webkit-outer-spin-button,
-.temp-box::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
 }
 
 /***********MEDIA QUERIES***********/
